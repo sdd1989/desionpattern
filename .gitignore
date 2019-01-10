@@ -1,0 +1,61 @@
+
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#idea
+.idea/*
+
+#log
+logs/*
+
+target/*
+
+waimai_e_bizsettle_manager.iml
+node_modules/
+build/
+
+# MAC OS
+.DS_Store
+
+
+local_output
+.idea
+logs
+*.iml
+.project
+.classpath
+.settings
+*/target
+*/.settings
+*/.classpath
+*/.project
+*/*.iml
+*/*.ipr
+*/*.iws
+*/build
+.DS_Store
+*/logs
+*/scripts/*.pyc
+*/scripts/*.*~
+src/main/webapp/WEB-INF/classes
+src/main/resources/META-INF/persistence.xml
+src/main/webapp/META-INF/
+*/src/main/webapp/WEB-INF/decorators/jsdep.inc
+*/src/main/webapp/WEB-INF/decorators/jsdep_debug.inc
+*/src/main/webapp/static/js/site_js_dep.js
+*/src/main/webapp/WEB-INF/decorators/revision.properties
+target
+/target
+
