@@ -7,10 +7,30 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="desionpattern" />
+        <module name="leaf-core" />
+        <module name="leaf-server" />
+        <module name="zookeeper-docs" />
+        <module name="zookeeper-jute" />
+        <module name="zookeeper-recipes-election" />
+        <module name="zookeeper-recipes-lock" />
+        <module name="zookeeper-recipes-queue" />
+        <module name="zookeeper-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="desionpattern" target="1.5" />
+      <module name="leaf-core" target="1.7" />
+      <module name="leaf-parent" target="1.7" />
+      <module name="leaf-server" target="1.7" />
+      <module name="zookeeper" target="1.8" />
+      <module name="zookeeper-client" target="1.8" />
+      <module name="zookeeper-docs" target="1.8" />
+      <module name="zookeeper-jute" target="1.8" />
+      <module name="zookeeper-recipes" target="1.8" />
+      <module name="zookeeper-recipes-election" target="1.8" />
+      <module name="zookeeper-recipes-lock" target="1.8" />
+      <module name="zookeeper-recipes-queue" target="1.8" />
+      <module name="zookeeper-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

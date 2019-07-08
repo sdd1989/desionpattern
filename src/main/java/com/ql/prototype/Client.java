@@ -22,4 +22,5 @@ public class Client {
         //会需要创建原型接口的对象
         Prototype newPrototype = prototype.clone();
     }
+
 }
